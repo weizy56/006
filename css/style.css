@@ -2,11 +2,11 @@
   background-color:orchid;
   height: 100px;
   width: 100%;
-  margin-bottom: 00px;
+  margin-bottom: 10px;
  }
  .main_section{
   background-color: burlywood;
-  height: 1000px;
+  height: 100px;
   width: 100%;
 
  }
@@ -34,3 +34,14 @@
   align-items: center;
   margin-left: 50px;
  }
+ a{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+ }
+ a.nostyle:visited{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+ }
+ 
