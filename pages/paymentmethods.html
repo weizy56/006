@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://js.stripe.com/v3/"></script>
+  <title>paymentmethod</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+<body>
+   <div class="header">
+
+      <h1>ProDrive Auto Shop</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/services">Services</a></li>
+          <li><a href="../pages/about.html">About Us</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+
+
+      </nav>
+    </div>
+
+<div class="paymentmethod">
+  <label for="card-holder-name">Card Holder Name:</label>
+  <input type="text" id="card-holder-name" placeholder="Card Holder Name">
+
+  <label for="card-number">Card Number:</label>
+  <input type="text" id="card-number" placeholder="Card Number">
+
+  <label for="card-expiry">Card Expiry:</label>
+  <input type="text" id="card-expiry" placeholder="Card Expiry">
+
+  <label for="card-cvc">Card CVC:</label>
+  <input type="text" id="card-cvc" placeholder="Card CVC">
+
+  <button id="submit-payment">Pay Now</button>
+</div>
+
+<script>
+  // ... (JavaScript code to handle payment form submission and interaction with Stripe API) ...
+</script>
+
+</body>
+</html>
